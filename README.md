@@ -1,10 +1,10 @@
-## 🌱 Self-Watering Garden Automation Project - BHCC STEM Club
+# 🌱 Self-Watering Garden Automation Project - BHCC STEM Club
 
 The **Self-Watering Garden Automation Project** is a **project** developed by the **BHCC STEM Club** to design and implement an **automated plant watering system**. The project aims to create an efficient, **data-driven irrigation system**, starting with an **indoor prototype** before expanding to a **fully scalable outdoor solution**.
 
 To ensure **structured development**, the project is divided into **three specialized teams**, each responsible for a particular aspect of the system:
 
-### 🛠 **Hardware Team**
+## 🛠 **Hardware Team**
 
 **Responsibilities:**
 
@@ -19,7 +19,7 @@ To ensure **structured development**, the project is divided into **three specia
 
 ---
 
-### 💻 **Embedded Systems Team** - _Brains of the Automation_
+## 💻 **Embedded Systems Team**
 
 **Responsibilities:**
 
@@ -35,7 +35,7 @@ To ensure **structured development**, the project is divided into **three specia
 
 ---
 
-### 🗄 **Database Team** - _Data Storage & Insights_
+## 🗄 **Database Team**
 
 **Responsibilities:**
 
@@ -51,18 +51,17 @@ To ensure **structured development**, the project is divided into **three specia
 
 ---
 
-### 📊 **Dashboard for Remote System Monitoring** - _User Interface & Decision Support_
+## 📊 **Dashboard for Remote System Monitoring**
 
 The **dashboard** acts as the main interface for monitoring the automated garden system remotely. It allows users to:
 
 -   View **real-time sensor data** (moisture, temperature, pump activity).
--   Adjust system settings based on **data insights** (e.g., change watering frequency).
 -   Receive **alerts and notifications** if soil moisture levels are too low or if system malfunctions occur.
 
 **Collaboration:**
 
 -   The **Database Team** sends sensor data to the dashboard for **real-time visualization**.
--   The **Embedded Systems Team** receives **adjustments based on insights** from the dashboard.
+-   The **Embedded Systems Team** have access to **data insights** for future system adjustments.
 
 ---
 
@@ -73,7 +72,9 @@ The **dashboard** acts as the main interface for monitoring the automated garden
 3. **The Database Team** stores the collected data and enables remote access via a dashboard.
 4. **The Dashboard allows users** to monitor the system health remotely.
 
-## 🌿 Automation System Flowchart
+---
+
+## 🌿 Project Flowchart
 
 ```mermaid
 graph TD;
@@ -93,6 +94,84 @@ graph TD;
     classDef collaboration fill:#D2691E,stroke:#333,stroke-width:2px,color:#000; %% Muted orange for hardware-software collaboration
     classDef dataflow fill:#8B4513,stroke:#333,stroke-width:2px,color:#FFF; %% Saddle brown for data flow
 ```
+
+## Reference Material
+
+-   [Tinkercad](https://www.tinkercad.com/): Free app for 3D design, electronics, and coding (use for prototyping, circuit design and code testing).
+
+## 🛠 Contribution Guidelines
+
+Every BHCC STEM Club member is welcome to contribute to the **Self-Watering Garden Automation Project**! To keep our development organized, please follow these guidelines when making commits and pull requests.
+
+---
+
+### **📌 Contribution Workflow**
+
+1. **Fork the repository** and create a new branch (`feature/xyz`, `fix/xyz`).
+2. **Follow commit message conventions** (see below).
+3. **Ensure your changes work** before pushing.
+4. **Submit a pull request (PR)** with a **clear title and description**.
+5. **Request a review** and make adjustments if needed.
+
+---
+
+### **📝 Commit Message Guidelines**
+
+Use a structured commit message format:
+
+**Example:**
+
+-   `feat: add soil moisture sensor integration`
+-   `fix: resolve issue with water pump activation`
+-   `docs: update README with project setup instructions`
+
+### **Commit Types**
+
+| Type       | Purpose                                      |
+| ---------- | -------------------------------------------- |
+| `feat`     | New feature                                  |
+| `fix`      | Bug fix                                      |
+| `docs`     | Documentation updates                        |
+| `chore`    | General updates (e.g., dependencies, config) |
+| `refactor` | Code improvements without behavior changes   |
+
+---
+
+### **🔀 Pull Request Guidelines**
+
+Before submitting a PR:  
+✅ Ensure the title follows the commit format (`feat: add XYZ`).  
+✅ Provide a **brief description** of the changes.  
+✅ Reference any related issues (e.g., `Closes #42`).  
+✅ Keep PRs **focused on one task** to make reviews easier.
+
+**Example PR Description:**
+
+**Summary**
+
+Added soil moisture sensor support to automate watering based on threshold levels.
+
+**Changes**
+
+-   Integrated soil moisture sensor
+-   Added logic to trigger water pump
+-   Updated README with sensor setup instructions
+
+**References**
+
+Closes #42
+
+---
+
+## **📋 Best Practices**
+
+✅ Use **feature branches** instead of committing to `main`.  
+✅ Keep commits **small and meaningful**.  
+✅ If unsure, ask for feedback before submitting large changes ((contact relevant club group members, see list below)).
+
+For questions or discussions, open an **issue** or post in the **GitHub Discussions** tab.
+
+---
 
 ## Group Members
 
